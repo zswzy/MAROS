@@ -13,7 +13,7 @@ A default scenario of **1 leader + 4 followers** is included:
 -   The **followers** run in **Offboard mode** and perform automatic
     formation behavior
 
-------------------------------------------------------------------------
+
 
 ## ✨ Features
 
@@ -25,7 +25,7 @@ A default scenario of **1 leader + 4 followers** is included:
 -   Supports user-defined formation shape and MAS numbers/topology
 -   Multi-process running
 
-------------------------------------------------------------------------
+
 
 ## 📦 Dependencies
 
@@ -49,7 +49,7 @@ https://docs.ros.org/en/jazzy/Installation.html
 
 https://docs.px4.io/main/en/middleware/uxrce_dds
 
-------------------------------------------------------------------------
+
 
 ## 📂 Repository Structure & Placement
 
@@ -70,7 +70,7 @@ https://docs.px4.io/main/en/middleware/uxrce_dds
     GitHub repository:\
     https://github.com/PX4/px4_msgs
 
-------------------------------------------------------------------------
+
 
 ## 🔨 Build the ROS2 Packages
 
@@ -84,7 +84,7 @@ colcon build --packages-select px4_msgs
 
 
 
-------------------------------------------------------------------------
+
 
 ## 🚁 Run the Multi-UAV Simulation
 
@@ -99,7 +99,7 @@ world.
 
 After startup, open **QGroundControl** to connect to the leader UAV.
 
-------------------------------------------------------------------------
+
 
 ## ▶️ Launch the ROS2 Demo
 
@@ -117,7 +117,7 @@ Launch the ROS2 package
 ros2 launch my_px4_demo launch_etm_demo.launch.py
 ```
 
-------------------------------------------------------------------------
+
 
 ## 📌 Default Scenario
 
@@ -129,8 +129,14 @@ ros2 launch my_px4_demo launch_etm_demo.launch.py
 You can modify the drone count or behavior in:\
 `formation_node.py`.
 
-------------------------------------------------------------------------
+
 
 ## 📄 License
+
+
+## Reference
+
+[1] Z. Wang, M. Chadli, and S. X. Ding, “A dynamic event-triggered approach for observer-based formation control of multi-agent systems with designable inter-event time,” Systems & Control Letters, vol. 195, p. 105970, Nov. 2024, doi: 10.1016/j.sysconle.2024.105970.
+
 
 
